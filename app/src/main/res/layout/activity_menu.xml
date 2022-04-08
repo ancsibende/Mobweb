@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:gravity="center"
+
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_Edzestervek"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_margin="25dp"
+        android:text="@string/edzestervek" />
+
+    <Button
+        android:id="@+id/btn_Meccsek"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:background="@android:color/white"
+        android:layout_margin="25dp"
+        android:text="@string/fordulok" />
+
+    <Button
+        android:id="@+id/btn_Osszes"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:background="@android:color/white"
+        android:layout_margin="25dp"
+        android:text="@string/sum_eredmeny" />
+
+    <Button
+        android:id="@+id/btn_Atlagok"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:background="@android:color/white"
+        android:layout_margin="25dp"
+        android:text="@string/atlagok" />
+
+    <Button
+        android:id="@+id/btn_EdzesEredmenyek"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_margin="25dp"
+        android:text="@string/edzes_eredmenyek" />
+
+</LinearLayout>

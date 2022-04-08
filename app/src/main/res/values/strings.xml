@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">FTC Teke</string>
+    <string name="title_activity_training_schedule">TrainingScheduleActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="fordulo">Forduló:</string>
+    <string name="textview">TextView</string>
+    <string name="no_training_schedule">Nincs edzés ezen a napon</string>
+    <string name="training_schedule">Edzésterv</string>
+    <string name="atlag">Átlag</string>
+    <string name="hazai_vagy_vendeg">Hazai vagy vendég:</string>
+    <string name="jatekos">Játékos:</string>
+
+    <string name="new_training_item">Új edzés eredmény</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Vissza</string>
+    <string name="datum">Dátum:</string>
+    <string name="helyszin">Helyszín:</string>
+    <string name="eredmeny">Eredmény:</string>
+    <string name="megjegyzes">Megjegyzés:</string>
+    <string name="edzestervek">Edzéstervek</string>
+    <string name="fordulok">Fordulók</string>
+    <string name="sum_eredmeny">Összes Eredmény</string>
+    <string name="atlagok">Átlagok</string>
+    <string name="edzes_eredmenyek">Edzés Eredmények</string>
+
+    <string-array name="Fordulok">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="HazaiVendeg">
+        <item>Hazai</item>
+        <item>Vendég</item>
+    </string-array>
+
+    <string-array name="Jatekosok">
+        <item>Bende Annamária</item>
+        <item>Domokos Dorottya</item>
+        <item>Hegedűs Tímea</item>
+    </string-array>
+
+    <string-array name="category_items">
+        <item>Fradi</item>
+        <item>Győr</item>
+        <item>Pápa</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/tvFordulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:textColor="#BCAAA4"
+        tools:text="1" />
+
+    <ImageView
+        android:id="@+id/ivHazai"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        tools:src="@drawable/hazai"
+        android:contentDescription="@string/hazai_vagy_vendeg" />
+
+    <TextView
+        android:id="@+id/tvNev"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:textColor="#263238"
+        tools:text="Kiss Mária" />
+
+    <TextView
+        android:id="@+id/tvOsszfa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:textColor="#455A64"
+        tools:text="550" />
+
+</LinearLayout>
